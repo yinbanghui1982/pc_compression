@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb   CMakeFiles/opencl_test.dir/test.cpp.o  -o opencl_test -Wl,-rpath,/home/ybh/intel/system_studio_2020/opencl/SDK/lib64 /home/ybh/intel/system_studio_2020/opencl/SDK/lib64/libOpenCL.so 
