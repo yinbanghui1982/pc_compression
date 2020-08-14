@@ -9,9 +9,10 @@
         },
         {
             "name": "(gdb) 启动",
+            "preLaunchTask": "make build",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/opencl_test",
+            "program": "${workspaceFolder}/build/pc_compression",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

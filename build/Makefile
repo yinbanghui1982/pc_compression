@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ybh/AI/opencl_projects/opencl_test
+CMAKE_SOURCE_DIR = /home/ybh/AI/opencl_projects/pc_compression
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ybh/AI/opencl_projects/opencl_test/build
+CMAKE_BINARY_DIR = /home/ybh/AI/opencl_projects/pc_compression/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/opencl_test/build/CMakeFiles /home/ybh/AI/opencl_projects/opencl_test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/pc_compression/build/CMakeFiles /home/ybh/AI/opencl_projects/pc_compression/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/opencl_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/pc_compression/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencl_test
+# Target rules for targets named pc_compression
 
 # Build rule for target.
-opencl_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencl_test
-.PHONY : opencl_test
+pc_compression: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pc_compression
+.PHONY : pc_compression
 
 # fast build rule for target.
-opencl_test/fast:
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/build
-.PHONY : opencl_test/fast
+pc_compression/fast:
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/build
+.PHONY : pc_compression/fast
 
-test.o: test.cpp.o
+main.o: main.cpp.o
 
-.PHONY : test.o
+.PHONY : main.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/test.cpp.o
-.PHONY : test.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-test.i: test.cpp.i
+main.i: main.cpp.i
 
-.PHONY : test.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/test.cpp.i
-.PHONY : test.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-test.s: test.cpp.s
+main.s: main.cpp.s
 
-.PHONY : test.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/test.cpp.s
-.PHONY : test.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... opencl_test"
+	@echo "... pc_compression"
 	@echo "... edit_cache"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

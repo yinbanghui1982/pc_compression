@@ -54,45 +54,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ybh/AI/opencl_projects/opencl_test
+CMAKE_SOURCE_DIR = /home/ybh/AI/opencl_projects/pc_compression
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ybh/AI/opencl_projects/opencl_test/build
+CMAKE_BINARY_DIR = /home/ybh/AI/opencl_projects/pc_compression/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/opencl_test.dir
+# Target rules for target CMakeFiles/pc_compression.dir
 
 # All Build rule for target.
-CMakeFiles/opencl_test.dir/all:
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/depend
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ybh/AI/opencl_projects/opencl_test/build/CMakeFiles --progress-num=1,2 "Built target opencl_test"
-.PHONY : CMakeFiles/opencl_test.dir/all
+CMakeFiles/pc_compression.dir/all:
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/depend
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ybh/AI/opencl_projects/pc_compression/build/CMakeFiles --progress-num=1,2 "Built target pc_compression"
+.PHONY : CMakeFiles/pc_compression.dir/all
 
 # Include target in all.
-all: CMakeFiles/opencl_test.dir/all
+all: CMakeFiles/pc_compression.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/opencl_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/opencl_test/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opencl_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/opencl_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/opencl_test.dir/rule
+CMakeFiles/pc_compression.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/pc_compression/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pc_compression.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ybh/AI/opencl_projects/pc_compression/build/CMakeFiles 0
+.PHONY : CMakeFiles/pc_compression.dir/rule
 
 # Convenience name for target.
-opencl_test: CMakeFiles/opencl_test.dir/rule
+pc_compression: CMakeFiles/pc_compression.dir/rule
 
-.PHONY : opencl_test
-
-# clean rule for target.
-CMakeFiles/opencl_test.dir/clean:
-	$(MAKE) -f CMakeFiles/opencl_test.dir/build.make CMakeFiles/opencl_test.dir/clean
-.PHONY : CMakeFiles/opencl_test.dir/clean
+.PHONY : pc_compression
 
 # clean rule for target.
-clean: CMakeFiles/opencl_test.dir/clean
+CMakeFiles/pc_compression.dir/clean:
+	$(MAKE) -f CMakeFiles/pc_compression.dir/build.make CMakeFiles/pc_compression.dir/clean
+.PHONY : CMakeFiles/pc_compression.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pc_compression.dir/clean
 
 .PHONY : clean
 

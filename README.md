@@ -1,2 +1,5 @@
-# pc_compression
-$s_2=x^2+y^2$
+[toc]
+
+# 点云压缩
+使用opencl实现点云压缩算法
+

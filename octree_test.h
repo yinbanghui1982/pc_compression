@@ -3,13 +3,13 @@
 #include <stdlib.h>
 #include "opencl_manager.h"
 #include "read_file.h"
-#include "kdtree.h"
+#include "octree.h"
 #include "range.h"
 #include "sort.h"
 
 
 //kdtree测试
-void kdtree_test()
+void octree_test()
 {
     //获取平台
 	cl_uint num_platforms;
@@ -58,8 +58,6 @@ void kdtree_test()
 	int aabb_max_y=index_y[point_count-1];
 
 	
-
-
     int j=1;
 
 

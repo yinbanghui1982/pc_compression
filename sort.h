@@ -1,4 +1,4 @@
-#include "kdtree.h"
+#include "octree.h"
 
 void sort(Point2D point2D[],int index[],int dim, int point_count)
 {
